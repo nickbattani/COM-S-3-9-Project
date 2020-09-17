@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Anti-Social</string>
+    <string-array name="sort_By_Spinner_Names">
+        <item>New</item>
+        <item>#Hashtag</item>
+    </string-array>
+    <string name="default_web_client_id" translatable="false">"730201351647-ouj5cmb67qkoagalr6it6ll18l8pal8q.apps.googleusercontent.com"</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sortByPopUpRL"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/hashTagSortET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/submitSortButton"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Hashtag to sort by"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C3C3C3" />
+
+    <Button
+        android:id="@+id/submitSortButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
